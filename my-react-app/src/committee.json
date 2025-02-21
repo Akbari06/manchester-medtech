@@ -2,19 +2,69 @@
     {
         "id": 1,
         "role": "President",
-        "name": "John Doe",
-        "about": "John is the president of the society and has been a member for 5 years."
+        "name": "Yassin Belhocine",
+        "about": "Year 1 Medicine"
     },
     {
         "id": 2,
         "role": "Vice President",
-        "name": "Jane Smith",
-        "about": "Jane is the vice president and specializes in event management."
+        "name": "Hamza Abbas",
+        "about": "Year 1 Medicine"
     },
     {
         "id": 3,
         "role": "Treasurer",
-        "name": "Alice Johnson",
-        "about": "Alice manages the finances and ensures the society's budget is on track."
+        "name": "Huzaifah Akbar",
+        "about": "Year 1 Medicine"
+    },
+    {
+        "id": 4,
+        "role": "Medicine Lead",
+        "name": "Safah Amir",
+        "about": "Year 4 Medicine"
+    },
+    {
+        "id": 5,
+        "role": "Medicine Lead",
+        "name": "Musa Majid",
+        "about": "Year 3 Medicine"
+    },
+    {
+        "id": 6,
+        "role": "Computer Science Lead",
+        "name": "Dominic Hill",
+        "about": "Year 2 Computer Science"
+    },
+    {
+        "id": 7,
+        "role": "Computer Science Lead",
+        "name": "Yumnaa Ali",
+        "about": "Year 1 Medicine"
+    },
+    {
+        "id": 8,
+        "role": "Treasurer",
+        "name": "Saber Kara-Mohammed",
+        "about": "Year 1 Accounting and Finance"
+    },
+    {
+        "id": 9,
+        "role": "Events Lead",
+        "name": "Neha Panyam",
+        "about": "Year 4 Medicine"
+    },
+    {
+        "id": 10,
+        "role": "Secetary",
+        "name": "Malaika Kashif",
+        "about": "Year 3 Medicine"
+    },
+    {
+        "id": 11,
+        "role": "Social Media",
+        "name": "Rubab Mahmood",
+        "about": "Year 2 Pharmacy"
     }
+
+
 ]
