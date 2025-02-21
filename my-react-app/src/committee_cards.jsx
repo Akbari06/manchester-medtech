@@ -48,9 +48,9 @@ const CommitteeList = () => {
         minHeight: "100vh",
         width: "100vw",
         margin: 0, 
-        paddingTop: "3000px", // Adds space at the top so the first card isn't cut off
+        paddingTop: "3300px", // Adds space at the top so the first card isn't cut off
         overflowY: "auto", // Enables scrolling if needed
-        paddingBottom: "200px"
+        paddingBottom: "100px"
     };
 
     return (
