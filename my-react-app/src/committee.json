@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "role": "President",
+        "name": "John Doe",
+        "about": "John is the president of the society and has been a member for 5 years."
+    },
+    {
+        "id": 2,
+        "role": "Vice President",
+        "name": "Jane Smith",
+        "about": "Jane is the vice president and specializes in event management."
+    },
+    {
+        "id": 3,
+        "role": "Treasurer",
+        "name": "Alice Johnson",
+        "about": "Alice manages the finances and ensures the society's budget is on track."
+    }
+]
