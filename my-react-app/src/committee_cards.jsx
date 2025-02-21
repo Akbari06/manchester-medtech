@@ -3,13 +3,19 @@ import PropTypes from "prop-types";
 
 const CommitteeCard = ({ role, name, about }) => {
     const styles = {
-        backgroundColor: "#331333",  // Fixed Hex Color
+        backgroundColor: "#331333",  
         padding: "20px",
         textAlign: "center",
-        border: "5px solid darkgrey",  // Fixed Border
+        border: "5px solid darkgrey",  
         borderRadius: "15px",
-        width: "70%",
-        color: "white"  // Ensuring text is visible on dark background
+        width: "70vw", // Takes 70% of the screen width
+        maxWidth: "600px", // Prevents it from being too wide
+        color: "white",
+        margin: "10px auto", // Centers the card horizontally
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center", // Centers content inside the card
+        alignItems: "center",
     };
 
     return (
@@ -21,6 +27,8 @@ const CommitteeCard = ({ role, name, about }) => {
     );
 };
 
+
+
 // Prop Validation
 CommitteeCard.propTypes = {
     role: PropTypes.string.isRequired,
@@ -29,8 +37,17 @@ CommitteeCard.propTypes = {
 };
 
 const CommitteeList = () => {
+    const containerStyles = {
+        display: "flex",
+        flexDirection: "column", 
+        alignItems: "center", 
+        justifyContent: "center", 
+        minHeight: "100vh", 
+        width: "100%", 
+    };
+
     return (
-        <div>
+        <div style={containerStyles}>
             {committeeData.map(member => (
                 <CommitteeCard
                     key={member.id}
@@ -42,5 +59,7 @@ const CommitteeList = () => {
         </div>
     );
 };
+
+
 
 export default CommitteeList;
