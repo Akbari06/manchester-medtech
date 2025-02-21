@@ -5,7 +5,10 @@ import CommitteeList from './committee_cards'
 function App() {
 
   return (
-    <CommitteeList/>
+    <div className="app-container">
+      <CommitteeList/>
+    </div>
+    
   )
 }
 

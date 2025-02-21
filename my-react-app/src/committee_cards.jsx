@@ -3,19 +3,22 @@ import PropTypes from "prop-types";
 
 const CommitteeCard = ({ role, name, about }) => {
     const styles = {
-        backgroundColor: "#331333",  
-        padding: "20px",
+        backgroundColor: "#404444",  
+        padding: "15px",
         textAlign: "center",
         border: "5px solid darkgrey",  
         borderRadius: "15px",
-        width: "70vw", // Takes 70% of the screen width
-        maxWidth: "600px", // Prevents it from being too wide
+        width: "70vw", // ✅ Takes 70% of the viewport width
+        maxWidth: "70vw", // ✅ Ensures it doesn't shrink below this
         color: "white",
-        margin: "10px auto", // Centers the card horizontally
+        margin: "10px auto", // ✅ Centers the card
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center", // Centers content inside the card
+        justifyContent: "center",
         alignItems: "center",
+        fontSize: "1.5rem",
+        font: "Arial",
+        fontWeight: "bold",
     };
 
     return (
@@ -41,13 +44,13 @@ const CommitteeList = () => {
         display: "flex",
         flexDirection: "column", 
         alignItems: "center", 
-        justifyContent: "center", 
-        height: "100vh",
+        justifyContent: "flex-start", // Ensures items start from the top
+        minHeight: "100vh",
         width: "100vw",
         margin: 0, 
-        paddingTop: "100px", // Adds space at the top so the first card isn't cut off
+        paddingTop: "3000px", // Adds space at the top so the first card isn't cut off
         overflowY: "auto", // Enables scrolling if needed
-        gap: "20px", // Adds space between cards
+        paddingBottom: "200px"
     };
 
     return (
