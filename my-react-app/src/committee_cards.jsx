@@ -42,8 +42,12 @@ const CommitteeList = () => {
         flexDirection: "column", 
         alignItems: "center", 
         justifyContent: "center", 
-        minHeight: "100vh", 
-        width: "100%", 
+        height: "100vh",
+        width: "100vw",
+        margin: 0, 
+        paddingTop: "100px", // Adds space at the top so the first card isn't cut off
+        overflowY: "auto", // Enables scrolling if needed
+        gap: "20px", // Adds space between cards
     };
 
     return (
