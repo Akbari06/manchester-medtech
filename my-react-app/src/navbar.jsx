@@ -11,13 +11,14 @@ function NavBar() {
             zIndex: 1000,  // ✅ Ensures it's above other elements
         },
         button: {
-            backgroundColor: "white",
-            color: "black",
-            padding: "10px 20px",
+            backgroundColor: "#404444",
+            color: "white",
+            padding: "10px 300px",
             border: "none",
             borderRadius: "5px",
             cursor: "pointer",
             fontSize: "16px",
+            font: "Arial",
         },
     };
 
