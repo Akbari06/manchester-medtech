@@ -1,8 +1,6 @@
 function NavBar() {
     const styles = {
         navbar: {
-            backgroundColor: "red",  // ✅ Ensures it's highly visible
-            border: "3px solid blue",  // ✅ Helps you see the boundaries
             padding: "15px",
             display: "flex",
             justifyContent: "center",

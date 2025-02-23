@@ -21,7 +21,7 @@ function Socials() {
                 Facebook: <a href="https://www.facebook.com/manchestermedtech">manchestermedtech</a>
             </p>
             <p style={linkStyles}>
-                Membership 2024/25: <a href="https://manchesterstudentsunion.com/shop/product/16844-">https://manchesterstudentsunion.com/shop/product/16844-</a>
+                Membership 2024/25: <a href="https://manchesterstudentsunion.com/shop/product/16844-">Student Union Shop</a>
             </p>
         </div>
     );

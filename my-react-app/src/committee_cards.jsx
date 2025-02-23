@@ -54,11 +54,11 @@ const CommitteeList = () => {
     };
 
     const stylesSign = {
-        fontSize: "90px",
+        fontSize: "70px",
         textAlign: "center",
         fontWeight: "bold",
         fontFamily: "Arial", // Corrected from "font"
-        paddingTop: "200px",
+        paddingTop: "10px",
         color: "white",
         marginBottom: "20px",
         paddingBottom: "1px",

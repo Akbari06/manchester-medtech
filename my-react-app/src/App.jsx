@@ -8,10 +8,8 @@ import NavBar from './navbar'
 function App() {
 
   return (
-    <div className="app-container">
-      <div style={{paddingTop:"4200px"}}>
+    <div className="app-container" style={{paddingTop:"540vh"}}>
         <NavBar/>
-      </div>
       <CommitteeList/>
       <Socials/>
     </div>

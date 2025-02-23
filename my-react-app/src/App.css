@@ -15,4 +15,11 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 50vh;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding-top: 30vh; /* Adjust for smaller screens */
+  }
 }
