@@ -17,7 +17,7 @@ function NavBar() {
             border: "none",
             borderRadius: "5px",
             cursor: "pointer",
-            fontSize: "16px",
+            fontSize: "25px",
             font: "Arial",
         },
     };
