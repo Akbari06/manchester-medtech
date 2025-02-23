@@ -58,7 +58,7 @@ const CommitteeList = () => {
         textAlign: "center",
         fontWeight: "bold",
         fontFamily: "Arial", // Corrected from "font"
-        paddingTop: "3900px",
+        paddingTop: "200px",
         color: "white",
         marginBottom: "20px",
         paddingBottom: "1px",
