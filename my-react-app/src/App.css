@@ -1,25 +1,71 @@
 body {
-  background-image: url('/background.png'); /* No need for ./ */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
   margin: 0;
   padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .app-container {
+  width: 100%;
   min-height: 100vh;
-  width: 100vw;
-  background-image: url('/background.png'); /* Directly from /public */
+  background-image: url('/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
-  .app-container {
-    padding-top: 30vh; /* Adjust for smaller screens */
+.content-wrapper {
+  width: 90%;
+  max-width: 350px; /* Adjusted for iPhone 12 Pro width */
+  margin: 2rem auto;
+  text-align: center;
+}
+
+/* Text styles */
+.title {
+  font-size: clamp(2rem, 8vw, 3.5rem);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  word-break: break-word;
+}
+
+.subtitle {
+  font-size: clamp(1rem, 4vw, 1.5rem);
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+/* Button/navigation styles */
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.nav-button {
+  padding: 0.5rem 1rem;
+  background: white;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 400px) {
+  .content-wrapper {
+    margin: 1rem auto;
+  }
+  
+  .nav-buttons {
+    gap: 0.5rem;
+  }
+  
+  .nav-button {
+    padding: 0.4rem 0.8rem;
   }
 }
