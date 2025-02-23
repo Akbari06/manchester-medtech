@@ -54,21 +54,44 @@ const CommitteeList = () => {
     };
 
     const stylesSign = {
-        fontSize: "60px",
+        fontSize: "90px",
         textAlign: "center",
         fontWeight: "bold",
         fontFamily: "Arial", // Corrected from "font"
-        paddingTop: "3500px",
+        paddingTop: "3900px",
         color: "white",
         marginBottom: "20px",
-        paddingBottom: "100px",
+        paddingBottom: "1px",
     }
+
+    const stylesText = {
+        fontSize: "25px",
+        textAlign: "center",
+        fontWeight: "bold",
+        fontFamily: "Arial", 
+        color: "white",
+        marginBottom: "20px",
+        paddingBottom: "10px",
+    }
+
+    const stylesFirstP = {
+        marginBottom: "100px", 
+    };
 
     return (
         <div>
             <div style={stylesSign}>
                 Manchester MedTech
             </div>
+
+            <div style={stylesText}>
+               <p style={stylesFirstP}>No.1 MedTech Society in the UK</p> 
+               <p>Want to hear about the latest MedTech news?</p>
+               <p>Want to contribute to MedTech and charity events?</p>
+               <p>You have come to the right place my friend.</p>
+                
+            </div>
+
             <div style={containerStyles}>
             {committeeData.map(member => (
                 <CommitteeCard
