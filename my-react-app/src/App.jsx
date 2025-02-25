@@ -8,7 +8,7 @@ import NavBar from './navbar'
 function App() {
 
   return (
-    <div className="app-container" style={{paddingTop:"540vh"}}>
+    <div className="app-container" style={{paddingTop:"10vh"}}>
         <NavBar/>
       <CommitteeList/>
       <Socials/>
