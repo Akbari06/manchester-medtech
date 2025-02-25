@@ -184,14 +184,6 @@ CommitteeCard.propTypes = {
 const CommitteeList = () => {
     return (
         <div className="min-h-screen w-full flex flex-col items-center justify-start py-8 px-4">
-            {/* Navigation Bar */}
-            <nav className="w-full bg-[#1a1a1a] p-4 text-white text-center font-bold font-sans">
-                <ul className="flex justify-center space-x-8">
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#newsletters">Newsletters</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </nav>
 
             {/* Header Section */}
             <div className="text-4xl sm:text-5xl md:text-6xl text-center font-bold font-sans text-white mb-8 mt-8">
