@@ -6,7 +6,7 @@ const CommitteeCard = ({ role, name, about }) => {
         backgroundColor: "#404444",  
         padding: "15px",
         textAlign: "center",
-        border: "5px solid darkgrey",  
+        border: "2px solid white",  
         borderRadius: "15px",
         width: "70vw", // ✅ Takes 70% of the viewport width
         maxWidth: "70vw", // ✅ Ensures it doesn't shrink below this
@@ -110,3 +110,4 @@ const CommitteeList = () => {
 
 
 export default CommitteeList;
+
