@@ -1,71 +1,22 @@
-body {
+/* Global CSS Reset (Preserves Custom Styles) */
+html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
+  height: 100%;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
-.app-container {
+/* Ensure the root container takes up the full height */
+#root {
   width: 100%;
-  min-height: 100vh;
-  background-image: url('/background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensures the container takes up at least the full viewport height */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 1rem;
-  box-sizing: border-box;
-}
-
-.content-wrapper {
-  width: 90%;
-  max-width: 350px; /* Adjusted for iPhone 12 Pro width */
-  margin: 2rem auto;
-  text-align: center;
-}
-
-/* Text styles */
-.title {
-  font-size: clamp(2rem, 8vw, 3.5rem);
-  line-height: 1.2;
-  margin-bottom: 1rem;
-  word-break: break-word;
-}
-
-.subtitle {
-  font-size: clamp(1rem, 4vw, 1.5rem);
-  line-height: 1.4;
-  margin-bottom: 2rem;
-}
-
-/* Button/navigation styles */
-.nav-buttons {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.nav-button {
-  padding: 0.5rem 1rem;
-  background: white;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-}
-
-@media (max-width: 400px) {
-  .content-wrapper {
-    margin: 1rem auto;
-  }
-  
-  .nav-buttons {
-    gap: 0.5rem;
-  }
-  
-  .nav-button {
-    padding: 0.4rem 0.8rem;
-  }
+  background-image: url("./public/background.png");
+  background-size: 100% 100%; /* Stretches the image to fill the container */
+  background-position: center;
+  background-repeat: no-repeat;
 }
