@@ -53,16 +53,16 @@ const CommitteeList = () => {
         paddingBottom: "100px"
     };
 
-    const stylesSign = {
-        fontSize: "70px",
-        textAlign: "center",
-        fontWeight: "bold",
-        fontFamily: "Arial", // Corrected from "font"
-        paddingTop: "10px",
-        color: "white",
-        marginBottom: "20px",
-        paddingBottom: "1px",
-    }
+    // const stylesSign = {
+    //     fontSize: "70px",
+    //     textAlign: "center",
+    //     fontWeight: "bold",
+    //     fontFamily: "Arial", // Corrected from "font"
+    //     paddingTop: "10px",
+    //     color: "white",
+    //     marginBottom: "20px",
+    //     paddingBottom: "1px",
+    // }
 
     const stylesText = {
         fontSize: "25px",
@@ -80,7 +80,7 @@ const CommitteeList = () => {
 
     return (
         <div>
-            <div style={stylesSign}>
+            <div className="text-white font-bold text-center text-5xl sm:text-6xl md:text-7xl lg:text-8xl pt-2 pb-1 mb-5">
                 Manchester MedTech
             </div>
 
