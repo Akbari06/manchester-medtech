@@ -6,11 +6,12 @@ import NavBar from './navbar';
 function App() {
   return (
     <div>
-      {/* Add padding-top to the parent div of NavBar */}
-      <div className="pt-10 sm:pt-12 md:pt-14 lg:pt-16 xl:pt-20">
+      {/* Pixel-based padding-top for NavBar */}
+      <div className="pt-[32px] sm:pt-[48px] md:pt-[64px] lg:pt-[80px] xl:pt-[96px]">
         <NavBar />
       </div>
-      <div className="pt-[80rem] sm:pt-48 md:pt-56 lg:pt-[70rem] xl:pt-[85rem]">
+      {/* Padding for CommitteeList and Socials (optional) */}
+      <div className="pt-[16px] sm:pt-[24px] md:pt-[32px] lg:pt-[40px] xl:pt-[48px]">
         <CommitteeList />
         <Socials />
       </div>
