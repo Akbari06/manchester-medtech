@@ -5,14 +5,13 @@ import NavBar from './navbar';
 
 function App() {
   return (
-    <div>
+    <main className="flex flex-col min-h-screen pt-[103rem] md:pt-[90rem] lg:pt-[110rem] xl:pt-[95rem]">
       <NavBar />
-      {/* Small padding for spacing between navbar and content */}
-      <div className="pt-4">
+      <div className="pt-[5rem] md:pt-[0.5rem] lg:pt-[3.5rem] xl:pt-[0.5rem]"> {/* Reduced margin-top */}
         <CommitteeList />
         <Socials />
       </div>
-    </div>
+    </main>
   );
 }
 
